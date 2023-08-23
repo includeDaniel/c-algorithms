@@ -3,9 +3,9 @@
 int main(void)
 {
 
-    int nLin = 2;
+    int nLin = 3;
     int nCol = 3;
-    int mat[2][3];
+    int mat[3][3];
 
     for (int i = 0; i < nLin; i++)
     {
@@ -19,7 +19,14 @@ int main(void)
     {
         for (int j = 0; j < nLin; j++)
         {
-            printf("%d", mat[j][i]);
+            if (i == j)
+            {
+                printf("%d", mat[i][j]);
+            }
+            else
+            {
+                printf(" ");
+            }
         }
         printf("\n");
     }
