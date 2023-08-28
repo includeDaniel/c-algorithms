@@ -1,2 +1,2 @@
-# ProgrammingParadigmsWithC
-Programming Paradigms in C in the collage
+# C-algorithms
+algorithms in c
