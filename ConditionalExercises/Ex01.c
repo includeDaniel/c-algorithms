@@ -20,4 +20,6 @@ int main()
     }
 
     printf("The larger number is %.2f", bigger);
+
+    return 0;
 }

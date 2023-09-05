@@ -32,4 +32,6 @@ int main()
 
     D = (R != S) | !(sqrt(R) < sqrt(X)) && (4327 * X * S * Z == 0);
     printf("D: %d", D);
+
+    return 0;
 }

@@ -5,14 +5,16 @@
 int main()
 {
     int n1;
-    printf("Digite um numero inteiro: ");
+    printf("Type a integer: ");
     scanf("%d", &n1);
     if (n1 % 2 == 0)
     {
-        printf("par!");
+        printf("Even!");
     }
     else
     {
-        printf("impar!");
+        printf("Odd!");
     }
+
+    return 0;
 }
