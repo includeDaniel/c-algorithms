@@ -3,11 +3,11 @@
 
 void main()
 {
-    int nLin = 3;
+    int nRow = 3;
     int nCol = 3;
-    int mat[nLin][nCol];
+    int mat[nRow][nCol];
 
-    for (int i = 0; i < nLin; i++)
+    for (int i = 0; i < nRow; i++)
     {
         for (int j = 0; j < nCol; j++)
         {
@@ -15,7 +15,7 @@ void main()
             scanf("%d", &mat[i][j]);
         }
     }
-    for (int i = 0; i < nLin; i++)
+    for (int i = 0; i < nRow; i++)
     {
         for (int j = 0; j < nCol; j++)
         {
@@ -27,7 +27,7 @@ void main()
 
     printf("\n");
 
-    for (int i = 0; i < nLin; i++)
+    for (int i = 0; i < nRow; i++)
     {
         for (int j = 0; j < nCol; j++)
         {
@@ -45,7 +45,7 @@ void main()
 
     printf("\n");
 
-    for (int i = 0; i < nLin; i++)
+    for (int i = 0; i < nRow; i++)
     {
         for (int j = 0; j < nCol; j++)
         {
@@ -64,7 +64,7 @@ void main()
 
     printf("\n");
 
-    for (int i = 0; i < nLin; i++)
+    for (int i = 0; i < nRow; i++)
     {
         for (int j = 0; j < nCol; j++)
         {
