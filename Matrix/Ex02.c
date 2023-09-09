@@ -1,3 +1,7 @@
+/*
+Write an algorithm that fills a 4x4 matrix and shows the number of elements greater than
+15 and under 25.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
