@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int Ex01()
+int main()
 {
     double A[2][2] = {1, 2, 3, 4};
     double B[2][2] = {4, 3, 2, 1};
